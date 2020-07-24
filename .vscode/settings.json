@@ -1,5 +1,7 @@
 {
     "cSpell.words": [
         "flavio"
-    ]
+    ],
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single"
 }
