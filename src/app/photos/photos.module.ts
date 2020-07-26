@@ -8,19 +8,18 @@ import { PhotoListComponent } from './photo-list/photo-list.component';
 import { PhotosComponent } from './photo-list/photos/photos.component';
 import { PhotoComponent } from './photo/photo.component';
 
-
 @NgModule({
   declarations: [
     FilterByDescriptionPipe,
     LoadButtonComponent,
     PhotoComponent,
-    PhotoListComponent,
     PhotoFormComponent,
+    PhotoListComponent,
     PhotosComponent,
   ],
   imports: [
     CommonModule,
-    HttpClientModule
+    HttpClientModule,
   ]
 })
 export class PhotosModule { }
