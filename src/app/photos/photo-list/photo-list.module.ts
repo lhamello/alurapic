@@ -6,13 +6,15 @@ import { LoadButtonComponent } from './load-button/load-button.component';
 import { PhotoListComponent } from './photo-list.component';
 import { PhotoModule } from './photos/photo.module';
 import { PhotosComponent } from './photos/photos.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
     FilterByDescription,
     LoadButtonComponent,
     PhotoListComponent,
-    PhotosComponent
+    PhotosComponent,
+    SearchComponent
   ],
   imports: [
     CardModule,
